@@ -1,0 +1,28 @@
+{
+  "name": "api-sql",
+  "version": "1.0.0",
+  "description": "API REST com Node.js e MySQL",
+  "keywords": [],
+  "homepage": "https://github.com/phelpolivier/api-SQL#readme",
+  "bugs": {
+    "url": "https://github.com/phelpolivier/api-SQL/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phelpolivier/api-SQL.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "watch": "node --watch ./src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.3.0",
+    "mysql2": "^3.15.2"
+  }
+}
